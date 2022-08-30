@@ -21,4 +21,7 @@ func main() {
 	newDeckFromFile("deck1.deck").printDeck()
 	log(newDeckFromFile("deck1.deck").toString())
 
+	cards.shuffle()
+	cards.printDeck()
+
 }
