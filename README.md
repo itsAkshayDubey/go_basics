@@ -18,9 +18,11 @@ Click <a href="https://go.dev/dl/">here</a> to install Go - based on your OS and
 1. git clone https://github.com/itsAkshayDubey/go_basics.git
 2. cd go_basics/scripts/linux
 3. sh build.sh
-4. ./main
+4. cd ../..
+5. ./main
 ### On Windows
 1. git clone https://github.com/itsAkshayDubey/go_basics.git
 2. cd go_basics/scripts/windows
 3. ./build.bat
-4. ./main.exe
+4. cd ../..
+5. ./main.exe
