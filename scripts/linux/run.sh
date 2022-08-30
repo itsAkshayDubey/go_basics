@@ -1,7 +1,7 @@
 dir=`pwd | sed 's#.*/##'`
 if [[ $dir == 'scripts' ]]
 then
-        cd ..
+        cd ../..
 fi
 
 go run main.go deck.go
