@@ -1,9 +1,9 @@
 export GO111MODULE=auto
 dir=`pwd | sed 's#.*/##'`
-if [[ $dir == 'scripts' ]]
+if [[ $dir == 'linux' ]]
 then
         cd ../..
 fi
 
-./scripts/test.sh
+./scripts/linux/test.sh
 go build main.go deck.go
