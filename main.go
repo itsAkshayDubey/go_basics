@@ -18,4 +18,7 @@ func main() {
 	log(cards.toString())
 	cards.saveToFile("deck1.deck")
 
+	newDeckFromFile("deck1.deck").printDeck()
+	log(newDeckFromFile("deck1.deck").toString())
+
 }
